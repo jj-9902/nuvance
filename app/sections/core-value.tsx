@@ -26,7 +26,7 @@ const CoreValueSection = () => {
                 viewport={{ once: true }}
                 className="text-2xl font-semibold text-primary mb-4"
               >
-                "Progressive Innovation with Purpose"
+                &quot;Progressive Innovation with Purpose&quot;
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, x: -50 }}
