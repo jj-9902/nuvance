@@ -43,7 +43,7 @@ const FooterSection = () => {
             <h4 className="font-semibold">Project Details</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Academic Year: 2025</p>
-              <p>Department: Computer Science / Civil Engineering</p>
+              <p>From: Rangsit International Collage</p>
               <p>Project Duration: 1 week</p>
             </div>
           </div>
