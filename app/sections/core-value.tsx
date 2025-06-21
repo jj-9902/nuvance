@@ -35,13 +35,20 @@ const CoreValueSection = () => {
                 viewport={{ once: true }}
                 className="text-lg text-muted-foreground leading-relaxed"
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur deleniti assumenda natus nobis sunt nihil, amet
-                repudiandae architecto asperiores rerum.
+                The Nuvance team embodies the spirit of “Progressive Innovation
+                with Purpose” by relentlessly advancing the frontier of ideas
+                while staying grounded in meaningful impact. We believe that
+                true innovation isn’t just about what’s new — it’s about what
+                matters. With every step forward, we seek to challenge
+                conventions, design with intention, and build solutions that are
+                not only forward-thinking but also deeply relevant and
+                human-centered. Our purpose-driven approach ensures that
+                progress is never just for the sake of novelty, but always in
+                service of clarity, value, and transformation
               </motion.p>
             </div>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
@@ -86,7 +93,7 @@ const CoreValueSection = () => {
                   </p>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
 
           <div className="space-y-8">
@@ -124,8 +131,8 @@ const CoreValueSection = () => {
             >
               <h4 className="font-semibold text-primary mb-3">Our Mission</h4>
               <p className="text-sm text-muted-foreground">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur, quas!
+                Our mission at Nuvance is to drive meaningful progress through
+                purposeful, forward-thinking innovation.
               </p>
             </motion.div>
           </div>

@@ -42,16 +42,16 @@ const FooterSection = () => {
           <div className="space-y-4">
             <h4 className="font-semibold">Project Details</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Academic Year: 2024-2025</p>
-              <p>Department: Computer Science</p>
-              <p>Project Duration: 8 months</p>
+              <p>Academic Year: 2025</p>
+              <p>Department: Computer Science / Civil Engineering</p>
+              <p>Project Duration: 1 week</p>
             </div>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; 2024 Nuvance. All rights reserved. Built with passion by
+            &copy; 2025 Nuvance. All rights reserved. Built with passion by
             students, for innovation.
           </p>
         </div>

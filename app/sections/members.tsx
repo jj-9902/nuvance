@@ -55,26 +55,28 @@ const MembersSection = () => {
             >
               <Card
                 key={index}
-                className="group hover:shadow-lg transition-all duration-300"
+                className="group hover:shadow-lg transition-all duration-300 h-full"
               >
-                <CardContent className="p-6 text-center">
+                <CardContent className="p-6 text-center h-full">
                   <div className="relative mb-6">
                     <Image
                       src={member.image || "/placeholder.svg"}
                       alt={member.name}
                       width={120}
                       height={120}
-                      className="rounded-full mx-auto group-hover:scale-105 transition-transform duration-300"
+                      className="rounded-full w-32 h-32 object-cover mx-auto group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <h3 className="text-xl font-semibold">{member.name}</h3>
                   <h4 className="text-lg">{member.id}</h4>
-                  <p className="text-primary font-medium mb-3">
-                    {member.faculty}
+                  <p className="text-primary font-medium ">{member.faculty}</p>
+                  <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+                    Role - {member.roles}
                   </p>
                   <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
                     Personality - {member.personalities}
                   </p>
+
                   <div className="flex flex-wrap gap-2 justify-center">
                     {member.skills.map((skill, skillIndex) => (
                       <Badge
