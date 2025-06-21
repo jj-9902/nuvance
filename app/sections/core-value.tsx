@@ -1,4 +1,3 @@
-import { Lightbulb, Target, Users } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
