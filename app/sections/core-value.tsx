@@ -117,9 +117,9 @@ const CoreValueSection = () => {
               </div>
               <p className="text-muted-foreground leading-relaxed text-center">
                 Nuvance is an inspired blend of{" "}
-                <span className="font-bold">"New"</span> and
-                <span className="font-bold">"Advance"</span> symbolizing an
-                intentional move toward innovation and progress.
+                <span className="font-bold">&quot;New&quot;</span> and
+                <span className="font-bold">&quot;Advance&quot;</span>{" "}
+                symbolizing an intentional move toward innovation and progress.
               </p>
             </motion.div>
 
