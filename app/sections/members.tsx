@@ -17,7 +17,7 @@ const MembersSection = () => {
             viewport={{ once: true }}
             className="text-3xl lg:text-4xl font-bold mb-4"
           >
-            Meet Nuvance
+            Meet Nuvancians
           </motion.h2>
           <motion.p
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
