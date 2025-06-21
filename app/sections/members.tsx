@@ -32,17 +32,10 @@ const MembersSection = () => {
         </div>
 
         <motion.div
-          variants={{
-            hidden: {},
-            visible: {
-              transition: {
-                staggerChildren: 0.1,
-              },
-            },
-          }}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
           className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {teamMembers.map((member, index) => (
