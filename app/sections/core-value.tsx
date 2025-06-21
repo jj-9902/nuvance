@@ -116,8 +116,10 @@ const CoreValueSection = () => {
                 <h3 className="text-xl font-semibold">Our Meaning</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed text-center">
-                Nuvance isn’t just what we do — it’s how we do it. New ideas.
-                Advanced impact
+                Nuvance is an inspired blend of{" "}
+                <span className="font-bold">"New"</span> and
+                <span className="font-bold">"Advance"</span> symbolizing an
+                intentional move toward innovation and progress.
               </p>
             </motion.div>
 
