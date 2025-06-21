@@ -106,7 +106,7 @@ const HeroSection = () => {
             }}
           >
             <Image
-              src="/placeholder.svg"
+              src="/members/nuvances.jpg"
               alt="Team Innovation Project"
               width={500}
               height={500}
