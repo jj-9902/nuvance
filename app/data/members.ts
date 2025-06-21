@@ -96,7 +96,7 @@ export const teamMembers: TeamType[] = [
     id: "6805332",
     faculty: "Computer Science",
     personalities: "Reformer",
-    skills: ["Developing", "Tech"],
+    skills: ["Web Development", "Programming"],
     strengths: "Developing",
     roles: "Developer",
   },
