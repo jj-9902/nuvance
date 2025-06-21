@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nuvance",
   description: "Project from passionate students",
+  icons: { icon: "/cm-logo.svg" },
 };
 
 export default function RootLayout({

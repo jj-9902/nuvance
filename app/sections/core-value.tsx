@@ -130,10 +130,9 @@ const CoreValueSection = () => {
               viewport={{ once: true }}
               className="bg-primary/5 rounded-2xl p-6 border border-primary/20"
             >
-              <h4 className="font-semibold text-primary mb-3">Our Mission</h4>
-              <p className="text-sm text-muted-foreground">
-                Our mission at Nuvance is to drive meaningful progress through
-                purposeful, forward-thinking innovation.
+              <h4 className="font-semibold text-primary mb-3">Our Slogan</h4>
+              <p className="text-lg text-muted-foreground font-bold">
+                Think New.Go advanced.That’s Nuvance
               </p>
             </motion.div>
           </div>
